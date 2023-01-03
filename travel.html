@@ -1,0 +1,1277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="travel.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <title>Travel</title>
+  </head>
+  <body>
+    <!-- Home Section -->
+
+    <header class="home">
+      <div class="shelf">
+        <div class="logo"><h1>World</h1></div>
+          <ul class="tabs">
+            <li class="first-item"><a href="#about-us">ABOUT US</a></li>
+            <li><a href="#destinations">DESTINATION</a></li>
+            <li><a href="#tours">TOURS</a></li>
+            <li><a href="#review">REVIEWS</a></li>
+            <li><a href="#contact">CONTACTS</a></li>
+          </ul>
+        <div id="sign-in">Sign In</div>
+        <div class="mobile-toggle">
+          <svg class="open-btn" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m11 16.745c0-.414.336-.75.75-.75h9.5c.414 0 .75.336.75.75s-.336.75-.75.75h-9.5c-.414 0-.75-.336-.75-.75zm-9-5c0-.414.336-.75.75-.75h18.5c.414 0 .75.336.75.75s-.336.75-.75.75h-18.5c-.414 0-.75-.336-.75-.75zm4-5c0-.414.336-.75.75-.75h14.5c.414 0 .75.336.75.75s-.336.75-.75.75h-14.5c-.414 0-.75-.336-.75-.75z" fill-rule="nonzero"/></svg>
+          <svg class="close-btn" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m12 10.93 5.719-5.72c.146-.146.339-.219.531-.219.404 0 .75.324.75.749 0 .193-.073.385-.219.532l-5.72 5.719 5.719 5.719c.147.147.22.339.22.531 0 .427-.349.75-.75.75-.192 0-.385-.073-.531-.219l-5.719-5.719-5.719 5.719c-.146.146-.339.219-.531.219-.401 0-.75-.323-.75-.75 0-.192.073-.384.22-.531l5.719-5.719-5.72-5.719c-.146-.147-.219-.339-.219-.532 0-.425.346-.749.75-.749.192 0 .385.073.531.219z"/></svg>
+        </div>
+      </div>
+
+      <!-- Home showcase -->
+      <div class="showcase">
+        <h3>WELCOME</h3>
+        <h1 class="showcase-title">Explore our world</br>deeper with us</h1>
+        <p>Watch the best tours, buy tickets and relax</p>
+        <div class="btn"><a href="#">BUY TICKETS</a></div>
+      </div>
+      <div class="socials">
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-facebook"></i>
+        </div>
+      <div class="fame-cities"><p>The most famous cities on the planet<i class="fa-solid fa-arrow-right"></i></p></div>
+      <div class="cities">
+        <div class="city city-1">
+          <img src="/Images/london.jpg" alt="">
+          <h4>London</h4>
+          <svg width="350" height="350" viewBox="0 0 350 350" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle id="inner-circle" cx="175" cy="175" r="130" fill="white"/>
+            <path id="triangle" d="M235 175L145 226.962L145 123.038L235 175Z" fill="black"/>
+            <circle id="outer-circle" cx="175" cy="175" r="175" fill="white" fill-opacity="0.5"/>
+          </svg>
+        </div>
+        <div class="city city-2">
+          <img src="/Images/bali.jpg" alt="">
+          <h4>Bali</h4>
+          <svg width="350" height="350" viewBox="0 0 350 350" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle id="inner-circle" cx="175" cy="175" r="130" fill="white"/>
+            <path id="triangle" d="M235 175L145 226.962L145 123.038L235 175Z" fill="black"/>
+            <circle id="outer-circle" cx="175" cy="175" r="175" fill="white" fill-opacity="0.5"/>
+          </svg>
+        </div>
+        <div class="city city-3">
+          <img src="/Images/newyork.jpg" alt="">
+          <h4>New York</h4>
+          <svg width="350" height="350" viewBox="0 0 350 350" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle id="inner-circle" cx="175" cy="175" r="130" fill="white"/>
+            <path id="triangle" d="M235 175L145 226.962L145 123.038L235 175Z" fill="black"/>
+            <circle id="outer-circle" cx="175" cy="175" r="175" fill="white" fill-opacity="0.5"/>
+          </svg>
+        </div>
+      </div>
+    </header>
+
+    <!-- About Us Section -->
+
+    <section id="about-us">
+      <div class="about-container">
+        <div class="column-1">
+          <h1 class="section-titles">About Us</h1>
+          <h4 class="sub-titles">The best travel agency for you</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            Explicabo inventore recusandae velit aperiam deleniti dolore esse quis! Dolores fugiat aspernatur ea? 
+            Sequi quibusdam ratione nulla maxime possimus, voluptate eius iure!
+          </p>
+          <div class="about-info"><a href="#"><p>Tread more about us<i class="fa-solid fa-arrow-right"></i></p></a></div>
+        </div>
+        <div class="column-2">
+          <div class="about-video">
+            <video src="/Images/about-video.mp4" controls autoplay muted></video>
+          </div>
+          <div class="picture">
+            <img src="/Images/about-img-1.jpg" alt="">
+            <div class="pattern"><img src="/Images/dots.png" alt=""></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Service Section -->
+
+    <div id="services">
+      <h1 class="section-titles">Our Services</h1>
+      <h4 class="sub-titles">We help our client throughout the trip</h4>
+      <div class="circles">
+        <div class="circ circ-1">
+          <div class="outer-circ">
+            <div class="inner-circ">
+              <i class="fa-solid fa-map-location-dot"></i>
+            </div>
+          </div>
+          <h5>Destination</h5>
+          <p>Choose any destination you like, we have several country ratings</p>
+        </div>
+        <div class="circ circ-2">
+          <div class="outer-circ">
+            <div class="inner-circ">
+              <i class="fa-solid fa-earth-africa"></i>
+            </div>
+          </div>
+          <h5>Tours</h5>
+          <p>A large number of tours to different countries for one or a family</p>
+        </div>
+        <div class="circ circ-3">
+          <div class="outer-circ">
+            <div class="inner-circ">
+              <i class="fa-solid fa-clipboard-question"></i>
+            </div>
+          </div>
+          <h5>Assistance</h5>
+          <p>We are ready to solve all your questions and help to deal with problems</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Destination Section -->
+    
+    <div id="destinations">
+      <h1 class="section-titles">Destinations</h1>
+      <h4 class="sub-titles">You can choose any country with good tourism</h4>
+      <ul class="continents">
+        <li class="list active" data-filter="all">All</li>
+        <li class="list" data-filter="africa">Africa</li>
+        <li class="list" data-filter="europe">Europe</li>
+        <li class="list" data-filter="north-america">North America</li>
+        <li class="list" data-filter="asia">Asia</li>
+        <li class="list" data-filter="oceania">Oceania</li>
+      </ul>
+      <div class="countries">
+        <div class="country africa">
+          <div class="country-image">
+            <div class="save-like">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-bookmark"></i>
+            </div>
+            <img src="/Images/ghana.jpg" alt="">
+          </div>
+          <div class="country-detail">
+            <div class="country-name">
+              <h2>Ghana</h2>
+              <img src="/Images/ghana.png" width="30px" height="30px" alt="">
+            </div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, sapiente. Maxime!</p>
+            <div class="country-review">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <h4>2520 Reviews</h4>
+            </div>
+          </div>
+        </div>
+        <div class="country africa">
+          <div class="country-image">
+            <div class="save-like">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-bookmark"></i>
+            </div>
+            <img src="/Images/kenya.jpg" alt="">
+          </div>
+          <div class="country-detail">
+            <div class="country-name">
+              <h2>Kenya</h2>
+              <img src="/Images/kenya.png" width="30px" height="30px" alt="">
+            </div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, sapiente. Maxime!</p>
+            <div class="country-review">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <h4>2520 Reviews</h4>
+            </div>
+          </div>
+        </div>
+        <div class="country africa">
+          <div class="country-image">
+            <div class="save-like">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-bookmark"></i>
+            </div>
+            <img src="/Images/south-africa.jpg" alt="">
+          </div>
+          <div class="country-detail">
+            <div class="country-name">
+              <h2>South Africa</h2>
+              <img src="/Images/south-africa.png" width="30px" height="30px" alt="">
+            </div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, sapiente. Maxime!</p>
+            <div class="country-review">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <h4>2520 Reviews</h4>
+            </div>
+          </div>
+        </div>
+        <div class="country africa">
+          <div class="country-image">
+            <div class="save-like">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-bookmark"></i>
+            </div>
+            <img src="/Images/nigeria.jpg" alt="">
+          </div>
+          <div class="country-detail">
+            <div class="country-name">
+              <h2>Nigeria</h2>
+              <img src="/Images/nigeria.png" width="30px" height="30px" alt="">
+            </div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, sapiente. Maxime!</p>
+            <div class="country-review">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <h4>2520 Reviews</h4>
+            </div>
+          </div>
+        </div>
+        <div class="country europe">
+          <div class="country-image">
+            <div class="save-like">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-bookmark"></i>
+            </div>
+            <img src="/Images/france.jpg" alt="">
+          </div>
+          <div class="country-detail">
+            <div class="country-name">
+              <h2>France</h2>
+              <img src="/Images/france.png" width="30px" height="30px" alt="">
+            </div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, sapiente. Maxime!</p>
+            <div class="country-review">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <h4>2520 Reviews</h4>
+            </div>
+          </div>
+        </div>
+        <div class="country europe">
+          <div class="country-image">
+            <div class="save-like">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-bookmark"></i>
+            </div>
+            <img src="/Images/moldova.jpg" alt="">
+          </div>
+          <div class="country-detail">
+            <div class="country-name">
+              <h2>Moldova</h2>
+              <img src="/Images/moldova.png" width="30px" height="30px" alt="">
+            </div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, sapiente. Maxime!</p>
+            <div class="country-review">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <h4>2520 Reviews</h4>
+            </div>
+          </div>
+        </div>
+        <div class="country europe">
+          <div class="country-image">
+            <div class="save-like">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-bookmark"></i>
+            </div>
+            <img src="/Images/spain.jpg" alt="">
+          </div>
+          <div class="country-detail">
+            <div class="country-name">
+              <h2>Spain</h2>
+              <img src="/Images/spain.png" width="30px" height="30px" alt="">
+            </div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, sapiente. Maxime!</p>
+            <div class="country-review">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <h4>2520 Reviews</h4>
+            </div>
+          </div>
+        </div>
+        <div class="country europe">
+          <div class="country-image">
+            <div class="save-like">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-bookmark"></i>
+            </div>
+            <img src="/Images/greece.jpg" alt="">
+          </div>
+          <div class="country-detail">
+            <div class="country-name">
+              <h2>Greece</h2>
+              <img src="/Images/greece.png" width="30px" height="30px" alt="">
+            </div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, sapiente. Maxime!</p>
+            <div class="country-review">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <h4>2520 Reviews</h4>
+            </div>
+          </div>
+        </div>
+        <div class="country europe">
+          <div class="country-image">
+            <div class="save-like">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-bookmark"></i>
+            </div>
+            <img src="/Images/germany.jpg" alt="">
+          </div>
+          <div class="country-detail">
+            <div class="country-name">
+              <h2>Germany</h2>
+              <img src="/Images/germany.png" width="30px" height="30px" alt="">
+            </div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, sapiente. Maxime!</p>
+            <div class="country-review">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <h4>2520 Reviews</h4>
+            </div>
+          </div>
+        </div>
+        <div class="country north-america">
+          <div class="country-image">
+            <div class="save-like">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-bookmark"></i>
+            </div>
+            <img src="/Images/bahamas.jpg" alt="">
+          </div>
+          <div class="country-detail">
+            <div class="country-name">
+              <h2>Bahamas</h2>
+              <img src="/Images/bahamas.png" width="30px" height="30px" alt="">
+            </div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, sapiente. Maxime!</p>
+            <div class="country-review">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <h4>2520 Reviews</h4>
+            </div>
+          </div>
+        </div>
+        <div class="country north-america">
+          <div class="country-image">
+            <div class="save-like">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-bookmark"></i>
+            </div>
+            <img src="/Images/costa-rica.jpg" alt="">
+          </div>
+          <div class="country-detail">
+            <div class="country-name">
+              <h2>Costa Rica</h2>
+              <img src="/Images/costa-rica.png" width="30px" height="30px" alt="">
+            </div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, sapiente. Maxime!</p>
+            <div class="country-review">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <h4>2520 Reviews</h4>
+            </div>
+          </div>
+        </div>
+        <div class="country north-america">
+          <div class="country-image">
+            <div class="save-like">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-bookmark"></i>
+            </div>
+            <img src="/Images/jamaica.jpg" alt="">
+          </div>
+          <div class="country-detail">
+            <div class="country-name">
+              <h2>Jamaica</h2>
+              <img src="/Images/jamaica.png" width="30px" height="30px" alt="">
+            </div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, sapiente. Maxime!</p>
+            <div class="country-review">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <h4>2520 Reviews</h4>
+            </div>
+          </div>
+        </div>
+        <div class="country north-america">
+          <div class="country-image">
+            <div class="save-like">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-bookmark"></i>
+            </div>
+            <img src="/Images/mexico.jpg" alt="">
+          </div>
+          <div class="country-detail">
+            <div class="country-name">
+              <h2>Mexico</h2>
+              <img src="/Images/mexico.png" width="30px" height="30px" alt="">
+            </div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, sapiente. Maxime!</p>
+            <div class="country-review">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <h4>2520 Reviews</h4>
+            </div>
+          </div>
+        </div>
+        <div class="country north-america">
+          <div class="country-image">
+            <div class="save-like">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-bookmark"></i>
+            </div>
+            <img src="/Images/panama.jpg" alt="">
+          </div>
+          <div class="country-detail">
+            <div class="country-name">
+              <h2>Panama</h2>
+              <img src="/Images/panama.png" width="30px" height="30px" alt="">
+            </div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, sapiente. Maxime!</p>
+            <div class="country-review">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <h4>2520 Reviews</h4>
+            </div>
+          </div>
+        </div>
+        <div class="country north-america">
+          <div class="country-image">
+            <div class="save-like">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-bookmark"></i>
+            </div>
+            <img src="/Images/cuba.jpg" alt="">
+          </div>
+          <div class="country-detail">
+            <div class="country-name">
+              <h2>Cuba</h2>
+              <img src="/Images/cuba.png" width="30px" height="30px" alt="">
+            </div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, sapiente. Maxime!</p>
+            <div class="country-review">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <h4>2520 Reviews</h4>
+            </div>
+          </div>
+        </div>
+        <div class="country asia">
+          <div class="country-image">
+            <div class="save-like">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-bookmark"></i>
+            </div>
+            <img src="/Images/maldives.jpg" alt="">
+          </div>
+          <div class="country-detail">
+            <div class="country-name">
+              <h2>Maldives</h2>
+              <img src="/Images/maldives.png" width="30px" height="30px" alt="">
+            </div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, sapiente. Maxime!</p>
+            <div class="country-review">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <h4>2520 Reviews</h4>
+            </div>
+          </div>
+        </div>
+        <div class="country asia">
+          <div class="country-image">
+            <div class="save-like">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-bookmark"></i>
+            </div>
+            <img src="/Images/malaysia.jpg" alt="">
+          </div>
+          <div class="country-detail">
+            <div class="country-name">
+              <h2>Malaysia</h2>
+              <img src="/Images/malaysia.png" width="30px" height="30px" alt="">
+            </div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, sapiente. Maxime!</p>
+            <div class="country-review">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <h4>2520 Reviews</h4>
+            </div>
+          </div>
+        </div>
+        <div class="country asia">
+          <div class="country-image">
+            <div class="save-like">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-bookmark"></i>
+            </div>
+            <img src="/Images/qatar.jpg" alt="">
+          </div>
+          <div class="country-detail">
+            <div class="country-name">
+              <h2>Qatar</h2>
+              <img src="/Images/qatar.png" width="30px" height="30px" alt="">
+            </div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, sapiente. Maxime!</p>
+            <div class="country-review">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <h4>2520 Reviews</h4>
+            </div>
+          </div>
+        </div>
+        <div class="country asia">
+          <div class="country-image">
+            <div class="save-like">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-bookmark"></i>
+            </div>
+            <img src="/Images/uae.jpg" alt="">
+          </div>
+          <div class="country-detail">
+            <div class="country-name">
+              <h2>UAE</h2>
+              <img src="/Images/uae.png" width="30px" height="30px" alt="">
+            </div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, sapiente. Maxime!</p>
+            <div class="country-review">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <h4>2520 Reviews</h4>
+            </div>
+          </div>
+        </div>
+        <div class="country asia">
+          <div class="country-image">
+            <div class="save-like">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-bookmark"></i>
+            </div>
+            <img src="/Images/thailand.jpg" alt="">
+          </div>
+          <div class="country-detail">
+            <div class="country-name">
+              <h2>Thailand</h2>
+              <img src="/Images/thailand.png" width="30px" height="30px" alt="">
+            </div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, sapiente. Maxime!</p>
+            <div class="country-review">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <h4>2520 Reviews</h4>
+            </div>
+          </div>
+        </div>
+        <div class="country oceania">
+          <div class="country-image">
+            <div class="save-like">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-bookmark"></i>
+            </div>
+            <img src="/Images/australia.jpg" alt="">
+          </div>
+          <div class="country-detail">
+            <div class="country-name">
+              <h2>Australia</h2>
+              <img src="/Images/australia.png" width="30px" height="30px" alt="">
+            </div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, sapiente. Maxime!</p>
+            <div class="country-review">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <h4>2520 Reviews</h4>
+            </div>
+          </div>
+        </div>
+        <div class="country oceania">
+          <div class="country-image">
+            <div class="save-like">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-bookmark"></i>
+            </div>
+            <img src="/Images/new-zealand.jpg" alt="">
+          </div>
+          <div class="country-detail">
+            <div class="country-name">
+              <h2>New Zealand</h2>
+              <img src="/Images/new-zealand.png" width="30px" height="30px" alt="">
+            </div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, sapiente. Maxime!</p>
+            <div class="country-review">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <h4>2520 Reviews</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- News Letter Section -->
+
+    <section class="news-letter">
+      <div class="news-letter-container">
+        <div class="news-info">
+          <h1>Stay in touch</h1>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores, vitae nesciunt. Lorem ipsum dolor sit.</p>
+        </div>
+        <div class="email-input">
+          <form action="#">
+            <input type="email" placeholder="Enter E-mail">
+            <button class="subscribe">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tour Section -->
+
+    <section id="tours">
+      <h1 class="section-titles">Tours</h1>
+      <h4 class="sub-titles">We provide you with interesting and exciting tours globally</h4>
+      <div class="selector">
+        <div class="location select">
+          <label for="location">Select location</label>
+          <input type="text" class="location-input" placeholder="Location">
+        </div>
+        <div class="type-of-tour select">
+          <label for="Tour-type">Tour type</label>
+          <select name="tour-type-select" id="tour-type">
+            <option value="domestic">Domestic</option>
+            <option value="inbound">Inbound</option>
+            <option value="outbound">Outbound</option>
+          </select>
+        </div>
+        <div class="date select">
+          <label for="date">Select date</label>
+          <input type="date" class="date-input">
+        </div>
+        <div class="adult-number select">
+          <label for="adult-number-label">Adult</label>
+          <select name="adult-number-select" id="adult">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5+">5+</option>
+          </select>
+        </div>
+        <div class="child-number select">
+          <label for="child-number-label">Child</label>
+          <select name="child-number-select" id="child">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4+">4+</option>
+          </select>
+        </div>
+        <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+      </div>
+    </section>
+
+    <section class="tour-package">
+      <div class="swiper mySwiper1">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="/Images/maafushi.jpg" alt="">
+            <div class="tour-info">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-bookmark"></i>
+              <div class="price">
+                <h1>$3200</h1>
+                <h3>20 days</h3>
+              </div>
+              <div class="city-review">
+                <h2>Maafushi, Maldives</h2>
+                <div class="city-rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <h4>865 Reviews</h4>
+                </div>
+              </div>
+              <div class="read-more">Read more<i class="fa-solid fa-arrow-right-long"></i></div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/Images/havana.jpg" alt="">
+            <div class="tour-info">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-bookmark"></i>
+              <div class="price">
+                <h1>$3200</h1>
+                <h3>20 days</h3>
+              </div>
+              <div class="city-review">
+                <h2>Havana, Cuba</h2>
+                <div class="city-rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <h4>865 Reviews</h4>
+                </div>
+              </div>
+              <div class="read-more">Read more<i class="fa-solid fa-arrow-right-long"></i></div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/Images/dubai.jpg" alt="">
+            <div class="tour-info">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-bookmark"></i>
+              <div class="price">
+                <h1>$3200</h1>
+                <h3>20 days</h3>
+              </div>
+              <div class="city-review">
+                <h2>Dubai, UAE</h2>
+                <div class="city-rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <h4>865 Reviews</h4>
+                </div>
+              </div>
+              <div class="read-more">Read more<i class="fa-solid fa-arrow-right-long"></i></div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/Images/ys-falls.jpg" alt="">
+            <div class="tour-info">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-bookmark"></i>
+              <div class="price">
+                <h1>$3200</h1>
+                <h3>20 days</h3>
+              </div>
+              <div class="city-review">
+                <h2>YS Falls, Jamaica</h2>
+                <div class="city-rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <h4>865 Reviews</h4>
+                </div>
+              </div>
+              <div class="read-more">Read more<i class="fa-solid fa-arrow-right-long"></i></div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/Images/phuket.jpg" alt="">
+            <div class="tour-info">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-bookmark"></i>
+              <div class="price">
+                <h1>$3200</h1>
+                <h3>20 days</h3>
+              </div>
+              <div class="city-review">
+                <h2>Phuket, Thailand</h2>
+                <div class="city-rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <h4>865 Reviews</h4>
+                </div>
+              </div>
+              <div class="read-more">Read more<i class="fa-solid fa-arrow-right-long"></i></div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/Images/paradise-island.jpg" alt="">
+            <div class="tour-info">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-bookmark"></i>
+              <div class="price">
+                <h1>$3200</h1>
+                <h3>20 days</h3>
+              </div>
+              <div class="city-review">
+                <h2>Paradis Island, Bahamas</h2>
+                <div class="city-rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <h4>865 Reviews</h4>
+                </div>
+              </div>
+              <div class="read-more">Read more<i class="fa-solid fa-arrow-right-long"></i></div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/Images/paris.jpg" alt="">
+            <div class="tour-info">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-bookmark"></i>
+              <div class="price">
+                <h1>$3200</h1>
+                <h3>20 days</h3>
+              </div>
+              <div class="city-review">
+                <h2>Paris, France</h2>
+                <div class="city-rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <h4>865 Reviews</h4>
+                </div>
+              </div>
+              <div class="read-more">Read more<i class="fa-solid fa-arrow-right-long"></i></div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/Images/Bondi-beach.jpg" alt="">
+            <div class="tour-info">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-bookmark"></i>
+              <div class="price">
+                <h1>$3200</h1>
+                <h3>20 days</h3>
+              </div>
+              <div class="city-review">
+                <h2>Bondi Beach, Australia</h2>
+                <div class="city-rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <h4>865 Reviews</h4>
+                </div>
+              </div>
+              <div class="read-more">Read more<i class="fa-solid fa-arrow-right-long"></i></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="swiper-button-prev-1" class="swiper-button-next"></div>
+      <div id="swiper-button-prev-1" class="swiper-button-prev"></div>
+    </section>
+
+    <!-- Review Section -->
+
+    <section id="review">
+      <h1 class="section-titles">Reviews</h1>
+      <h4 class="sub-titles">We always ask our clients to leave honest reviews</h4>
+      <div class="swiper-container">
+        <div class="swiper mySwiper2">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="panel-1">
+                <div class="p1-sub">
+                  <div class="p1-sub-img-con"><img src="/Images/rev-profile-1.jpg" alt=""></div>
+                  <div class="p1-sub-info">
+                    <p class="rev-name">Captain Marvel</p>
+                    <p>30 yrs</p>
+                  </div>
+                </div>
+                <div class="rev-location">
+                  <p class="rev-title">Tour:</h4>
+                  <p>Maafushi, Maldives</p>
+                </div>
+                <div class="rev-image">
+                  <img src="/Images/rev-img-1.jpg" alt="">
+                </div>
+              </div>
+              <div class="panel-2">
+                <div class="assistance block">
+                  <p>Assistance</p>
+                  <div class="progress-bar">
+                    <div class="bar">
+                      <div class="bar-overlay status-100"></div>
+                    </div>
+                  </div>
+                  <p class="percentage">100%</p>
+                </div>
+                <div class="tour-quality block">
+                  <p>Tour quality</p>
+                  <div class="progress-bar">
+                    <div class="bar">
+                      <div class="bar-overlay status-85"></div>
+                    </div>
+                  </div>
+                  <p class="percentage">85%</p>
+                </div>
+                <div class="hotel block">
+                  <p>Hotel</p>
+                  <div class="progress-bar">
+                    <div class="bar">
+                      <div class="bar-overlay status-80"></div>
+                    </div>
+                  </div>
+                  <p class="percentage">80%</p>
+                </div>
+                <div class="coordinators block">
+                  <p>Activities</p>
+                  <div class="progress-bar">
+                    <div class="bar">
+                      <div class="bar-overlay status-90"></div>
+                    </div>
+                  </div>
+                  <p class="percentage">90%</p>
+                </div>
+                <div class="rev-rating">
+                  <p>Overall rating:</p>
+                  <div class="rating-figure"><span>5</span></div>
+                </div>
+              </div>
+              <div class="panel-3">
+                <span class="quotation-mark left"><i class="fa-solid fa-quote-left"></i></span>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                  Eligendi, tempora, quam quasi neque ipsam nemo quia architecto cumque, rem suscipit nulla magni ullam ipsum exercitationem?
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia debitis aspernatur perspiciatis ex omnis provident fuga neque alias. 
+                  Praesentium alias molestias aperiam deserunt dolore quam, possimus vel quisquam facere modi?
+                </p>
+                <span class="quotation-mark right"><i class="fa-solid fa-quote-right"></i></span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="panel-1">
+                <div class="p1-sub">
+                  <div class="p1-sub-img-con"><img src="/Images/rev-profile-2.jpg" alt=""></div>
+                  <div class="p1-sub-info">
+                    <p class="rev-name">Captain America</p>
+                    <p>35 yrs</p>
+                  </div>
+                </div>
+                <div class="rev-location">
+                  <p class="rev-title">Tour:</h4>
+                  <p>Paradise Island, Bahamas</p>
+                </div>
+                <div class="rev-image">
+                  <img src="/Images/rev-img-2.jpg" alt="">
+                </div>
+              </div>
+              <div class="panel-2">
+                <div class="assistance block">
+                  <p>Assistance</p>
+                  <div class="progress-bar">
+                    <div class="bar">
+                      <div class="bar-overlay status-100"></div>
+                    </div>
+                  </div>
+                  <p class="percentage">100%</p>
+                </div>
+                <div class="tour-quality block">
+                  <p>Tour quality</p>
+                  <div class="progress-bar">
+                    <div class="bar">
+                      <div class="bar-overlay status-85"></div>
+                    </div>
+                  </div>
+                  <p class="percentage">85%</p>
+                </div>
+                <div class="hotel block">
+                  <p>Hotel</p>
+                  <div class="progress-bar">
+                    <div class="bar">
+                      <div class="bar-overlay status-80"></div>
+                    </div>
+                  </div>
+                  <p class="percentage">80%</p>
+                </div>
+                <div class="coordinators block">
+                  <p>Activities</p>
+                  <div class="progress-bar">
+                    <div class="bar">
+                      <div class="bar-overlay status-90"></div>
+                    </div>
+                  </div>
+                  <p class="percentage">90%</p>
+                </div>
+                <div class="rev-rating">
+                  <p>Overall rating:</p>
+                  <div class="rating-figure"><span>5</span></div>
+                </div>
+              </div>
+              <div class="panel-3">
+                <span class="quotation-mark left"><i class="fa-solid fa-quote-left"></i></span>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                  Eligendi, tempora, quam quasi neque ipsam nemo quia architecto cumque, rem suscipit nulla magni ullam ipsum exercitationem?
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia debitis aspernatur perspiciatis ex omnis provident fuga neque alias. 
+                  Praesentium alias molestias aperiam deserunt dolore quam, possimus vel quisquam facere modi?
+                </p>
+                <span class="quotation-mark right"><i class="fa-solid fa-quote-right"></i></span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="panel-1">
+                <div class="p1-sub">
+                  <div class="p1-sub-img-con"><img src="/Images/rev-profile-3.jpg" alt=""></div>
+                  <div class="p1-sub-info">
+                    <p class="rev-name">Black Widow</p>
+                    <p>28 yrs</p>
+                  </div>
+                </div>
+                <div class="rev-location">
+                  <p class="rev-title">Tour:</h4>
+                  <p>Havana, Cuba</p>
+                </div>
+                <div class="rev-image">
+                  <img src="/Images/rev-img-3.jpg" alt="">
+                </div>
+              </div>
+              <div class="panel-2">
+                <div class="assistance block">
+                  <p>Assistance</p>
+                  <div class="progress-bar">
+                    <div class="bar">
+                      <div class="bar-overlay status-100"></div>
+                    </div>
+                  </div>
+                  <p class="percentage">100%</p>
+                </div>
+                <div class="tour-quality block">
+                  <p>Tour quality</p>
+                  <div class="progress-bar">
+                    <div class="bar">
+                      <div class="bar-overlay status-85"></div>
+                    </div>
+                  </div>
+                  <p class="percentage">85%</p>
+                </div>
+                <div class="hotel block">
+                  <p>Hotel</p>
+                  <div class="progress-bar">
+                    <div class="bar">
+                      <div class="bar-overlay status-80"></div>
+                    </div>
+                  </div>
+                  <p class="percentage">80%</p>
+                </div>
+                <div class="coordinators block">
+                  <p>Activities</p>
+                  <div class="progress-bar">
+                    <div class="bar">
+                      <div class="bar-overlay status-90"></div>
+                    </div>
+                  </div>
+                  <p class="percentage">90%</p>
+                </div>
+                <div class="rev-rating">
+                  <p>Overall rating:</p>
+                  <div class="rating-figure"><span>5</span></div>
+                </div>
+              </div>
+              <div class="panel-3">
+                <span class="quotation-mark left"><i class="fa-solid fa-quote-left"></i></span>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                  Eligendi, tempora, quam quasi neque ipsam nemo quia architecto cumque, rem suscipit nulla magni ullam ipsum exercitationem?
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia debitis aspernatur perspiciatis ex omnis provident fuga neque alias. 
+                  Praesentium alias molestias aperiam deserunt dolore quam, possimus vel quisquam facere modi?
+                </p>
+                <span class="quotation-mark right"><i class="fa-solid fa-quote-right"></i></span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="panel-1">
+                <div class="p1-sub">
+                  <div class="p1-sub-img-con"><img src="/Images/rev-profile-4.jpg" alt=""></div>
+                  <div class="p1-sub-info">
+                    <p class="rev-name">Wonder woman</p>
+                    <p>36 yrs</p>
+                  </div>
+                </div>
+                <div class="rev-location">
+                  <p class="rev-title">Tour:</h4>
+                  <p>Dubai, UAE</p>
+                </div>
+                <div class="rev-image">
+                  <img src="/Images/rev-img-4.jpg" alt="">
+                </div>
+              </div>
+              <div class="panel-2">
+                <div class="assistance block">
+                  <p>Assistance</p>
+                  <div class="progress-bar">
+                    <div class="bar">
+                      <div class="bar-overlay status-100"></div>
+                    </div>
+                  </div>
+                  <p class="percentage">100%</p>
+                </div>
+                <div class="tour-quality block">
+                  <p>Tour quality</p>
+                  <div class="progress-bar">
+                    <div class="bar">
+                      <div class="bar-overlay status-85"></div>
+                    </div>
+                  </div>
+                  <p class="percentage">85%</p>
+                </div>
+                <div class="hotel block">
+                  <p>Hotel</p>
+                  <div class="progress-bar">
+                    <div class="bar">
+                      <div class="bar-overlay status-80"></div>
+                    </div>
+                  </div>
+                  <p class="percentage">80%</p>
+                </div>
+                <div class="coordinators block">
+                  <p>Activities</p>
+                  <div class="progress-bar">
+                    <div class="bar">
+                      <div class="bar-overlay status-90"></div>
+                    </div>
+                  </div>
+                  <p class="percentage">90%</p>
+                </div>
+                <div class="rev-rating">
+                  <p>Overall rating:</p>
+                  <div class="rating-figure"><span>5</span></div>
+                </div>
+              </div>
+              <div class="panel-3">
+                <span class="quotation-mark left"><i class="fa-solid fa-quote-left"></i></span>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                  Eligendi, tempora, quam quasi neque ipsam nemo quia architecto cumque, rem suscipit nulla magni ullam ipsum exercitationem?
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia debitis aspernatur perspiciatis ex omnis provident fuga neque alias. 
+                  Praesentium alias molestias aperiam deserunt dolore quam, possimus vel quisquam facere modi?
+                </p>
+                <span class="quotation-mark right"><i class="fa-solid fa-quote-right"></i></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="swiper-button-prev-2" class="swiper-button-next"></div>
+        <div id="swiper-button-prev-2" class="swiper-button-prev"></div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+
+    <section id="contact">
+      <div class="contact-container">
+        <div class="contact-info">
+          <h1 class="section-titles">Contact Us</h1>
+          <h4 class="sub-titles">Feel free to contact us. Request a call by entering your phone number below.</h4>
+          <div class="request-call">
+            <input type="tel" placeholder="Enter your phone number">
+            <button class="btn-call">Request</button>
+          </div>
+          <p><i class="fa-solid fa-location-dot"></i>945 Beauty Rd, Toronto, Ontario</p>
+          <p><i class="fa-solid fa-at"></i>support@exploreworld.com</p>
+          <p><a href="#"><i class="fa-solid fa-phone"></i>+1 888 614 9874</a></p>
+        </div>
+        <div class="contact-image">
+          <div class="contact-image-container"><img src="/Images/contact-img.jpg" alt=""></div>
+          <div class="pattern"><img src="/Images/dots.png" alt=""></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+
+    <footer>
+      <div class="footer-container">
+        <div class="row-1">
+          <div class="logo"><h1>World</h1></div>
+        </div>
+        <div class="row-2">
+          <p>&copy; 2023<br/>WorldExploore<br/>All rights reserved</p>
+          <div class="row-end">
+            <a href="#">Terms of Service</a>
+            <a href="#">Privacy Policy</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="travel.js"></script>
+  </body>
+</html>
