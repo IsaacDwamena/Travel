@@ -83,7 +83,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 gsap.defaults({
   ease: "power2.in",
-  duration: 1,
+  duration: 0.75,
 });
 gsap.fromTo(".socials", { opacity: 0, y: -50 }, { opacity: 1, y: 0 });
 gsap.fromTo(".showcase", { opacity: 0, x: -200 }, { opacity: 1, x: 0 });
@@ -113,8 +113,10 @@ gsap.fromTo(
   {
     opacity: 1,
     x: 0,
-    scrollTrigger: "#about-us",
-    duration: 0.75,
+    scrollTrigger: {
+      trigger: "#about-us",
+      toggleActions: "restart none restart none",
+    },
     ease: "elastic.out(1, 0.75)",
   }
 );
@@ -124,8 +126,10 @@ gsap.fromTo(
   {
     opacity: 1,
     x: 0,
-    scrollTrigger: "#about-us",
-    duration: 0.75,
+    scrollTrigger: {
+      trigger: "#about-us",
+      toggleActions: "restart none restart none",
+    },
     ease: "elastic.out(1, 0.75)",
   }
 );
@@ -134,14 +138,28 @@ gsap.fromTo(
 gsap.fromTo(
   "#services",
   { opacity: 0, y: 100 },
-  { opacity: 1, y: 0, scrollTrigger: "#services", duration: 0.75 }
+  {
+    opacity: 1,
+    y: 0,
+    scrollTrigger: {
+      trigger: "#services",
+      toggleActions: "restart none restart none",
+    },
+  }
 );
 
 // Destination Section
 gsap.fromTo(
   "#destinations",
   { opacity: 0, y: 100 },
-  { opacity: 1, y: 0, scrollTrigger: "#destinations", duration: 0.75 }
+  {
+    opacity: 1,
+    y: 0,
+    scrollTrigger: {
+      trigger: "#destinations",
+      toggleActions: "restart none restart none",
+    },
+  }
 );
 
 // News Letter Section
@@ -151,8 +169,10 @@ gsap.fromTo(
   {
     opacity: 1,
     x: 0,
-    scrollTrigger: ".news-letter",
-    duration: 0.75,
+    scrollTrigger: {
+      trigger: ".news-letter",
+      toggleActions: "restart none restart none",
+    },
     ease: "elastic.out(1, 0.75)",
   }
 );
@@ -162,8 +182,10 @@ gsap.fromTo(
   {
     opacity: 1,
     x: 0,
-    scrollTrigger: ".news-letter",
-    duration: 0.75,
+    scrollTrigger: {
+      trigger: ".news-letter",
+      toggleActions: "restart none restart none",
+    },
     ease: "elastic.out(1, 0.75)",
   }
 );
@@ -172,12 +194,26 @@ gsap.fromTo(
 gsap.fromTo(
   "#tours",
   { opacity: 0, y: 100 },
-  { opacity: 1, y: 0, scrollTrigger: "#tours", duration: 0.75 }
+  {
+    opacity: 1,
+    y: 0,
+    scrollTrigger: {
+      trigger: "#tours",
+      toggleActions: "restart none restart none",
+    },
+  }
 );
 
 // Contact Section
 gsap.fromTo(
   "#contact",
   { opacity: 0, y: 100 },
-  { opacity: 1, y: 0, scrollTrigger: "#contact", duration: 0.75 }
+  {
+    opacity: 1,
+    y: 0,
+    scrollTrigger: {
+      trigger: "#contact",
+      toggleActions: "restart none restart none",
+    },
+  }
 );

@@ -476,22 +476,26 @@ a {
   position: absolute;
   top: 10%;
   left: 10%;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 #destinations .countries .country .country-image .save-like .fa-heart:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 #destinations .countries .country .country-image .save-like .fa-bookmark {
   position: absolute;
   top: 10%;
   right: 10%;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 #destinations .countries .country .country-image .save-like .fa-bookmark:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 #destinations .countries .country .country-detail {
